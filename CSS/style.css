@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*全てのページに適用*/
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html *{
+    box-sizing: border-box;
+}
+header {
+    background-color: #ffffff;
+}
+.icon {
+    width: 100px ;
+    height : 100px;
+}
+.photo {
+    width: 200px ;
+    height : 200px;
+}
+body {
+    background-color: #E1F6FA;
+}
+h2 {
+    color: #000069;
+    font-size: x-large;
+    border-bottom: 3px dotted #000069;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+p {
+    line-height: 1.6;
+}
+a:link {
+    color: rgb(160, 211, 235);
+}
+a:visited {
+    color: rgb(85, 85, 85);
+}
+a:hover {
+    color: #010c07;
+}
+a:active {
+
+}
