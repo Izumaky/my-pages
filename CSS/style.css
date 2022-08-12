@@ -2,89 +2,70 @@
 
 /*全てのページに適用*/
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html *{
-    box-sizing: border-box;
+html * {
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #000000;
-    height: 50px;
+  background-color: #000000;
+  height: 50px;
 }
 
 .icon {
-    width: 50px ;
-    height : 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .photo {
-    width: 200px ;
-    height : 200px;
-}
-
-.navigation ul li{
-    float: left;
-    width: 120px;
-    height: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .navigation ul{
-    list-style-type: none;
-}
-
-.navigation{
-    background-color: navy;
-    height: 50px;
-}
-
-.navigation a{
-    text-decoration: none;
-    display: block;
-    padding: 10%;
+    display: flex;
 }
 
 a:link {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 a:visited {
-    color: rgb(232, 201, 241);
+  color: rgb(232, 201, 241);
 }
 
 a:hover {
-    color: #efc6e7;
+  color: #efc6e7;
 }
 
-.navigation ul li:hover{
-    background: #0505ef;
+.navigation ul li:hover {
+  background: #0505ef;
 }
 
 a:active {
-    color: #ef8ad1;
+  color: #ef8ad1;
 }
 
 body {
-    background-color: #E1F6FA;
+  background-color: #e1f6fa;
 }
 
 h2 {
-    color: #000069;
-    font-size: x-large;
-    border-bottom: 3px dotted #000069;
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+  color: #000000;
+  font-size: x-large;
+  border-bottom: 3px dotted #000000;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
-
-
